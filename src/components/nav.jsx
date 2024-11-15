@@ -12,6 +12,9 @@ export default function Nav () {
         <Link to="/about">
           <div>About</div>
         </Link>
+        <Link to="/crypto">
+          <div>Crypto</div>
+        </Link>
       </div>
     );
   }

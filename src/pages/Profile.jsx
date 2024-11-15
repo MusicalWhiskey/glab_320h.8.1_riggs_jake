@@ -6,7 +6,7 @@ export default function Profile(props) {
     return (
         <>
             <h1>Profile</h1>
-            <h2>Welcome, God King {UID}</h2>
+            <h2>Welcome, God King {UID.toUpperCase()}</h2>
         </>
     )
 }
